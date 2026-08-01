@@ -1,8 +1,30 @@
 aid: river-financial
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/river-financial.png
 name: River Financial
-description: 'River Financial is a company surfaced as a portfolio company of polychain and added to the
-  API Evangelist network as a stub for enrichment. Sector: bitcoin-services. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  River Financial Inc. (river.com) is a regulated U.S.-based Bitcoin brokerage
+  and bank for long-term investors, operating under NMLS ID #1906809. Customers
+  can buy, sell, send, and receive bitcoin, get paid in bitcoin via direct
+  deposit, and earn interest on cash balances paid in bitcoin. River holds 100%
+  of customer bitcoin in full-reserve multisig cold storage, publishes monthly
+  third-party Proof of Reserves attestations, and provides FDIC insurance on cash
+  up to $250,000 through partner bank Lead Bank. River exposes a GraphQL data API
+  at https://river.com/api secured by an OAuth 2.0 authorization-code + PKCE flow
+  with OpenID Connect discovery (balances, transactions, identity, and payment
+  network read scopes). Surfaced as a polychain portfolio company and enriched
+  from River's public well-known, OIDC, and security surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/river-financial/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +34,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Bitcoin Services
-apis: []
+- Cryptocurrency
+- Financial Services
+- Banking
+- OAuth
+- API
+apis:
+- name: River API
+  description: >-
+    River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and
+    OpenID Connect. Read scopes cover account balances, transactions, identity,
+    and payment networks.
+  humanURL: https://river.com
+  baseURL: https://river.com/api
+  properties:
+  - type: Authentication
+    url: authentication/river-financial-authentication.yml
+  - type: OAuthScopes
+    url: scopes/river-financial-scopes.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +64,44 @@ maintainers:
 common:
 - type: Website
   url: https://river.com
+- type: Support
+  url: https://river.com/support
+- type: SignUp
+  url: https://river.com/signup
+- type: TermsOfService
+  url: https://river.com/legal/terms
+- type: PrivacyPolicy
+  url: https://river.com/legal/privacy
+- type: GitHubOrganization
+  url: https://github.com/riverfinancial
+- type: StatusPage
+  url: https://status.river.com
+- type: Compliance
+  url: https://river.com/security
+- type: Security
+  url: https://river.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/river-financial-security.txt
+- type: WellKnown
+  url: well-known/river-financial-well-known.yml
+- type: Authentication
+  url: authentication/river-financial-authentication.yml
+- type: OAuthScopes
+  url: scopes/river-financial-scopes.yml
+- type: Conventions
+  url: conventions/river-financial-conventions.yml
+- type: Conformance
+  url: conformance/river-financial-conformance.yml
+- type: Lifecycle
+  url: lifecycle/river-financial-lifecycle.yml
+- type: DomainSecurity
+  url: security/river-financial-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/river-financial-vulnerability-disclosure.yml
+- type: LLMsTxt
+  url: llms/river-financial-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 13
+  pass: local-v1

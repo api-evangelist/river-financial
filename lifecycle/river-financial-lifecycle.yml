@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.river.com
+status_page: https://status.river.com
+versioning:
+  scheme: unknown
+  notes: >-
+    No public versioning or deprecation policy is published. The API surface
+    (GraphQL at https://river.com/api and the OAuth2/OIDC authorization server)
+    is not accompanied by a public developer versioning policy.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+deprecated_operations: []

@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://river.com/.well-known/openid-configuration
+docs: https://river.com/.well-known/openid-configuration
+summary:
+  types:
+  - oauth2
+  - openIdConnect
+  oauth2_flows:
+  - authorizationCode
+  pkce: S256
+  token_endpoint_auth_methods:
+  - client_secret_basic
+  id_token_signing_alg:
+  - ES256
+schemes:
+- name: OAuth2
+  type: oauth2
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://river.com/oauth2/authorize
+    tokenUrl: https://river.com/oauth2/token
+    refresh: true
+    pkce_required: S256
+  sources:
+  - https://river.com/.well-known/openid-configuration
+- name: OpenIDConnect
+  type: openIdConnect
+  issuer: https://river.com
+  openIdConnectUrl: https://river.com/.well-known/openid-configuration
+  userinfo_endpoint: https://river.com/oauth2/userinfo
+  jwks_uri: https://river.com/.well-known/jwks.json
+  sources:
+  - https://river.com/.well-known/openid-configuration
+notes: >-
+  River exposes an OAuth 2.0 authorization-code + PKCE (S256) authorization
+  server with OIDC discovery. ID tokens are signed with ES256. Client
+  authentication at the token endpoint is client_secret_basic. A GraphQL API
+  is served at https://river.com/api (bearer access token).

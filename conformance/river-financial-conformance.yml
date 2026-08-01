@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://river.com/.well-known/openid-configuration, https://river.com/security
+standards:
+- id: oauth2
+  conforms: true
+  evidence: >-
+    Published OAuth 2.0 authorization server metadata with authorization_code
+    and refresh_token grants (openid-configuration).
+- id: oidc
+  conforms: true
+  evidence: >-
+    OIDC discovery document at /.well-known/openid-configuration with
+    userinfo_endpoint and ES256 id_token signing.
+- id: rfc7636-pkce
+  conforms: true
+  evidence: code_challenge_methods_supported includes S256.
+- id: rfc9207-iss-parameter
+  conforms: true
+  evidence: authorization_response_iss_parameter_supported is true.
+- id: soc2
+  conforms: true
+  evidence: >-
+    River publicly states SOC II compliance with strict data controls
+    (https://river.com/security).
+- id: fdic-insurance
+  conforms: true
+  evidence: >-
+    Cash balances FDIC-insured to $250,000 via partner bank Lead Bank
+    (llms.txt, /security).
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI; error envelope is GraphQL-style {errors:[{message}]}.

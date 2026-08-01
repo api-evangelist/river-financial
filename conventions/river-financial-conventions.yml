@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://river.com/.well-known/openid-configuration, https://river.com/api
+authentication:
+  style: oauth2-bearer
+  flow: authorization_code + PKCE (S256)
+  token_endpoint: https://river.com/oauth2/token
+  see: authentication/river-financial-authentication.yml
+api_style:
+  protocol: graphql
+  endpoint: https://river.com/api
+  notes: >-
+    The data API is a single GraphQL endpoint; requests without a query document
+    return {"errors":[{"message":"No query document supplied"}]}.
+error_envelope:
+  shape: graphql
+  example: '{"errors":[{"message":"..."}]}'
+  see: errors/
+idempotency:
+  supported: unknown
+  notes: No public idempotency contract documented.
+pagination:
+  style: unknown
+  notes: >-
+    Not publicly documented; GraphQL connections are the likely mechanism but
+    unverified.
+rate_limiting:
+  signaling: unknown
+versioning:
+  scheme: unknown
+  see: lifecycle/river-financial-lifecycle.yml

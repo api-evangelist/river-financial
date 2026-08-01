@@ -1,0 +1,34 @@
+# River
+
+> River is a U.S.-based Bitcoin brokerage and bank for long-term investors. Buy, sell, send, and receive bitcoin, get paid in bitcoin via direct deposit, and earn interest on cash that is paid in bitcoin. River publishes monthly Proof of Reserves attestations and holds 100% of customer bitcoin in full-reserve custody.
+
+River Financial Inc. is a regulated U.S. financial services company (NMLS ID #1906809). Cash balances are FDIC-insured up to $250,000 through partner bank Lead Bank. River does not lend, rehypothecate, or invest customer bitcoin.
+
+## Products
+
+- [Buy bitcoin](https://river.com/buy-bitcoin): Buy and sell bitcoin instantly with zero fees on recurring buys. Set up auto-invest, target-price orders, and direct-deposit allocations.
+- [Bitcoin interest on cash](https://river.com/bitcoin-interest): Earn interest on your cash balance, paid in bitcoin daily. FDIC-insured, no fees, no minimums, withdraw anytime.
+- [Banking with bitcoin](https://river.com/banking): Replace your checking and savings accounts. Direct deposit your paycheck, pay bills, and earn bitcoin interest on cash from one FDIC-insured account.
+- [Zero-fee recurring buys](https://river.com/zero-fee): Schedule automatic bitcoin purchases with no transaction fees.
+- [Wallet (send & receive)](https://river.com/wallet): Self-custody-grade send and receive functionality with zero on-chain withdrawal fees on Lightning.
+- [Private Client](https://river.com/private-client): White-glove service for high-net-worth bitcoin investors and family offices.
+- [Business accounts](https://river.com/business): Corporate treasury accounts for businesses holding bitcoin.
+
+## Trust and security
+
+- [Proof of Reserves](https://river.com/reserves): Monthly third-party attestations proving River holds 100% of customer bitcoin in segregated custody.
+- [Security](https://river.com/security): Custody architecture, audit history, and security practices.
+- [Company financials](https://river.com/financials): Public-company-grade financial transparency reports.
+
+## Reference
+
+- [About River](https://river.com/about): Company background, leadership, and mission.
+- [Bitcoin price](https://river.com/bitcoin-price): Current BTC/USD price and historical chart.
+- [Learn](https://river.com/learn): Educational content on Bitcoin, custody, taxes, and long-term investing.
+- [Research](https://river.com/research): Independent bitcoin research published by River's research team.
+
+## Legal
+
+- [Terms of service](https://river.com/legal/terms)
+- [Privacy policy](https://river.com/legal/privacy)
+- [Licenses](https://river.com/legal/licenses)

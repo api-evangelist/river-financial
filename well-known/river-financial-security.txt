@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+
+Contact: security@river.com
+Encryption: https://river.com/.well-known/publickey.txt
+Preferred-Languages: en
+Canonical: https://river.com/.well-known/security.txt
+Hiring: https://jobs.ashbyhq.com/river
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHHBAEBCAAxFiEEazgoUTPSzfnYMJS5nzBK+vutVRwFAmeiXL4THHNlY3VyaXR5
+QHJpdmVyLmNvbQAKCRCfMEr6+61VHL3zDACHdLWmHy8eutr+ZQWdxOr2gdnW4qnO
+XIWAVy8gir0wZ+RtPbgQYYySYGt0WbUtX9IaSa9wa/CpX9R6vnW3HCLu0gxKX2IY
+rj46uhOZvm9gzdbbucvkGZ5wTuwgKILQAzDT2fWnE8P9N7v90OOIAurd3EHwnLac
+W4qe7ipGWithFTATODg6yqmEdq89O1oD2ChaxYqivqLKT+UrfCeCHS5bdhijs8Qu
+G1En0mfwnGaINqOT1235fpFyb/0rJfjN6ZP/Ir6HhBnQbPVWc2zOH2c6eDkqR0VF
+9ysj4DNmmevaepwBNgrWAJKpC81plCwD6LditYFI7lbZULlw4x6SZYO+UM4EHgA1
+t6OUBinFCoI8Ie0mrzywrQ7T3eqjJFdSpj4L8H7xCvObMxKXq0G0m55uZdapXzv/
+TqYtmaQ9cTLbBxwoK7HTaY0MdH4HXhymz3dl4/zLpBjpw7CsalhZSQFMWBH4K/um
+O5/dctJo1Ip7ko0tBxisoLFZzuCLfai25m8=
+=jWP6
+-----END PGP SIGNATURE-----

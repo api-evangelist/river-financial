@@ -1,0 +1,35 @@
+{
+    "issuer": "https://river.com",
+    "scopes_supported": [
+        "openid",
+        "offline_access",
+        "balances:read",
+        "transactions:read",
+        "identity:read",
+        "payment_networks:read"
+    ],
+    "jwks_uri": "https://river.com/.well-known/jwks.json",
+    "authorization_endpoint": "https://river.com/oauth2/authorize",
+    "token_endpoint": "https://river.com/oauth2/token",
+    "userinfo_endpoint": "https://river.com/oauth2/userinfo",
+    "token_endpoint_auth_methods_supported": [
+        "client_secret_basic"
+    ],
+    "response_types_supported": [
+        "code"
+    ],
+    "grant_types_supported": [
+        "authorization_code",
+        "refresh_token"
+    ],
+    "subject_types_supported": [
+        "public"
+    ],
+    "id_token_signing_alg_values_supported": [
+        "ES256"
+    ],
+    "code_challenge_methods_supported": [
+        "S256"
+    ],
+    "authorization_response_iss_parameter_supported": true
+}

@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: derived
+status: candidate
+source: https://river.com/.well-known/openid-configuration
+notes: >-
+  No official hosted/remote MCP server was found for River. This is a candidate
+  tool surface derived from the OAuth2 read scopes River publishes. River's data
+  API is GraphQL (https://river.com/api) behind OAuth2 authorization-code + PKCE.
+server:
+  name: river-financial
+  transport: http
+  url: null
+tools:
+- name: read_balances
+  description: Read account cash and bitcoin balances.
+  scope: balances:read
+- name: read_transactions
+  description: Read transaction history.
+  scope: transactions:read
+- name: read_identity
+  description: Read account holder identity information.
+  scope: identity:read
+- name: read_payment_networks
+  description: Read configured payment networks / payout rails.
+  scope: payment_networks:read
