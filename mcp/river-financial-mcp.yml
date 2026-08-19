@@ -2,10 +2,9 @@ generated: '2026-07-21'
 method: derived
 status: candidate
 source: https://river.com/.well-known/openid-configuration
-notes: >-
-  No official hosted/remote MCP server was found for River. This is a candidate
-  tool surface derived from the OAuth2 read scopes River publishes. River's data
-  API is GraphQL (https://river.com/api) behind OAuth2 authorization-code + PKCE.
+notes: No official hosted/remote MCP server was found for River. This is a candidate tool surface derived
+  from the OAuth2 read scopes River publishes. River's data API is GraphQL (https://river.com/api) behind
+  OAuth2 authorization-code + PKCE.
 server:
   name: river-financial
   transport: http
@@ -23,3 +22,9 @@ tools:
 - name: read_payment_networks
   description: Read configured payment networks / payout rails.
   scope: payment_networks:read
+deployment:
+  mode: none
+  verified: derived
+  tools: 4
+  checked: '2026-08-12'
+  source: catalog MCP census
