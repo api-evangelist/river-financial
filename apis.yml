@@ -50,7 +50,7 @@ tags:
 - Company
 - Bitcoin Services
 - Cryptocurrency
-- Financial-Services
+- Financial Services
 - Banking
 - Authentication
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Banking
 - OAuth
 - API
+- Financial-Services
 apis:
 - name: River API
   description: >-
