@@ -64,6 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-River Financial is a company surfaced as a portfolio company of polychain and added to the API Evangelist network as a stub for enrichment. Sector: bitcoin-services. This profile is a lead awaiting the enrichment pipeline.
+River Financial Inc. (river.com) is a regulated U.S.-based Bitcoin brokerage and bank for long-term investors, operating under NMLS ID #1906809. Customers can buy, sell, send, and receive bitcoin, get paid in bitcoin via direct deposit, and earn interest on cash balances paid in bitcoin. River holds 100% of customer bitcoin in full-reserve multisig cold storage, publishes monthly third-party Proof of Reserves attestations, and provides FDIC insurance on cash up to $250,000 through partner bank Lead Bank. River exposes a GraphQL data API at https://river.com/api secured by an OAuth 2.0 authorization-code + PKCE flow with OpenID Connect discovery (balances, transactions, identity, and payment network read scopes). Surfaced as a polychain portfolio company and enriched from River's public well-known, OIDC, and security surfaces.
 
-Backed by: polychain — https://river.com
+**Areas:** Company · Bitcoin Services · Cryptocurrency · Financial Services · Banking · Authentication
+
+## River Financial on APIs.io
+
+Everything profiled for River Financial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/river-financial/](https://apis.io/providers/river-financial/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [River API](https://apis.io/apis/river-financial/river-api/) — River's GraphQL data API secured with OAuth 2.0 authorization-code + PKCE and OpenID Connect. Read scopes cover account balances, transactions, identity,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [river-financial](https://apis.io/servers/river-financial/river-financial/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [River Financial Authentication](https://apis.io/security/river-financial/river-financial-authentication/)
+- [River Financial Domain Security](https://apis.io/security/river-financial/river-financial-domain-security/)
+- [River Financial Vulnerability Disclosure](https://apis.io/security/river-financial/river-financial-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [River Financial Scopes](https://apis.io/scopes/river-financial/river-financial-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://river.com)
+- [Sign up](https://river.com/signup)
+- [Support](https://river.com/support)
+- [Security](https://river.com/.well-known/security.txt)
+- [Compliance](https://river.com/security)
+- [Terms of service](https://river.com/legal/terms)
+- [Privacy policy](https://river.com/legal/privacy)
+- [GitHub](https://github.com/riverfinancial)
+- [Status](https://status.river.com)
+
+## API Evangelist rating
+
+**Kin Score 28.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 42.1 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 41.7** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/river-financial/](https://apis.io/providers/river-financial/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for River Financial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/river-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
